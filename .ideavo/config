@@ -1,28 +1,30 @@
 {
-  "systemSetup": [],
+  "systemSetup": [
+    { "name": "Install pnpm", "command": "npm install -g pnpm" }
+  ],
   "templateName": "custom",
   "projectDependencies": [
-    { "name": "Install Dependencies", "command": "cd webpage && npm install" }
+    { "name": "Install Dependencies", "command": "cd /home/user/project/webpage \u0026\u0026 pnpm install" }
   ],
   "codeChecks": [
-    { "name": "Lint Code", "command": "cd webpage && npm run lint" }
+    { "name": "Lint", "command": "cd /home/user/project/webpage \u0026\u0026 pnpm run lint" }
   ],
   "buildSteps": [
-    { "name": "Build Project", "command": "cd webpage && npm run build" }
+    { "name": "Build Project", "command": "cd /home/user/project/webpage \u0026\u0026 pnpm run build" }
   ],
   "runStep": [
-    { "name": "Run Dev Server", "command": "cd webpage && npx next dev --hostname 0.0.0.0 --port 3000", "port": "3000" }
+    { "name": "Run Dev Server", "command": "cd /home/user/project/webpage \u0026\u0026 pnpm run dev --port 3000", "port": "3000" }
   ],
   "deploySteps": [
-    { "name": "Build for Deploy", "command": "cd webpage && npm run build" }
+    { "name": "Build for Deploy", "command": "cd /home/user/project/webpage \u0026\u0026 pnpm run build" }
   ],
   "cleanupFiles": [
     "webpage/node_modules",
     "webpage/.next",
     "webpage/out",
-    "webpage/.env"
+    "webpage/dist"
   ],
-  "packageManager": "npm",
+  "packageManager": "pnpm",
   "envPaths": [
     { "name": "default", "path": "webpage/.env" }
   ]
