@@ -18,6 +18,10 @@ const nextConfig = {
       },
     ],
   },
+  turbopack: {
+    root: '/home/user/project/webpage',
+  },
+  allowedDevOrigins: ['*.e2b.app'],
 }
 
 export default nextConfig
