@@ -13,33 +13,33 @@ import {
 const services = [
   {
     icon: Camera,
-    title: 'Monthly Field Inspections',
-    description: 'Our verified agents visit your plot every 30 days and photograph all four boundaries, ensuring comprehensive documentation.',
+    title: 'Monthly Ground Inspection',
+    description: 'A verified local agent physically walks your plot every 30 days. Four boundary photos, geotagged with GPS coordinates and timestamp. You see exactly what your plot looks like today.',
   },
   {
     icon: FileText,
-    title: 'Digital Report Delivery',
-    description: 'Detailed reports arrive via PDF and WhatsApp with geotagged photos, timestamps, and actionable insights.',
+    title: 'Photo Report on WhatsApp',
+    description: 'No login required to see your report. A detailed PDF with drone-level clarity hits your WhatsApp and email. Boundary status, vegetation growth, neighbouring construction — everything documented.',
   },
   {
     icon: Bell,
-    title: 'Encroachment Alerts',
-    description: 'Any boundary violation or unauthorized activity triggers an instant notification so you can act immediately.',
+    title: 'Instant Encroachment Alert',
+    description: 'New construction material on your boundary? Unauthorised digging? Our agent flags it within 24 hours and we call you directly. No surprises six months later.',
   },
   {
     icon: Scale,
-    title: 'Legal Health Monitoring',
-    description: 'EC status, tax dues, and RERA compliance are tracked continuously to keep your property legally sound.',
+    title: 'Legal & Tax Health Check',
+    description: 'EC status verified quarterly. Property tax paid on time. Pattadar passbook updated. RERA compliance tracked. We catch the paperwork gaps before they become court cases.',
   },
   {
     icon: TrendingUp,
-    title: 'Value Appreciation Tracker',
-    description: 'Monthly market data shows your estimated plot value relative to nearby registrations and transactions.',
+    title: 'Live Value Tracker',
+    description: 'Know your plot is worth Rs. 14,200/sq.yd because the adjacent layout registered at that rate last Tuesday — not because a broker guessed.',
   },
   {
     icon: FolderLock,
-    title: 'Document Vault',
-    description: 'Sale deed, patta, link documents, and all legal paperwork stored securely in your digital vault.',
+    title: 'Digital Document Vault',
+    description: 'Sale deed, patta, EC, link documents — everything stored with bank-grade encryption. Share with a lawyer or buyer instantly. Never scramble for paperwork again.',
   },
 ]
 
@@ -75,10 +75,11 @@ export function ServicesSection() {
           className="mb-16 text-center"
         >
           <h2 className="font-serif text-4xl font-bold text-foreground md:text-5xl">
-            One Service. <span className="text-primary">Complete Coverage.</span>
+            One Subscription. <span className="text-primary">Complete Protection.</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl font-sans text-lg text-muted-foreground">
-            We act as your eyes, ears, and legal representative on the ground.
+            We are your eyes, ears, and legal shield on the ground in Visakhapatnam. 
+            Everything an absent landowner needs, in one monthly plan.
           </p>
         </motion.div>
 

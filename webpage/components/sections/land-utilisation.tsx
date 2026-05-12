@@ -18,8 +18,8 @@ interface Service {
 
 const services: Service[] = [
   {
-    title: 'Container Farming Lease',
-    description: 'Generate passive income by leasing your plot for modern container farming operations.',
+    title: 'Raised-Bed Farming Lease',
+    description: 'Your empty plot earns Rs. 3,000–6,000/month through organic vegetable farming. We install raised beds that sit above the soil — zero disturbance to your land. Remove them anytime.',
     category: 'Income Generation',
     gradient: 'from-emerald-900 to-emerald-700',
     size: 'full',
@@ -27,7 +27,7 @@ const services: Service[] = [
   },
   {
     title: 'Mushroom Kit Cultivation',
-    description: 'Low-maintenance mushroom cultivation that generates monthly returns.',
+    description: 'Portable mushroom kits placed on your plot generate Rs. 4,200/month. No permanent structure. No soil contact. Fully reversible.',
     category: 'Income Generation',
     gradient: 'from-amber-900 to-amber-700',
     size: 'half',
@@ -35,15 +35,15 @@ const services: Service[] = [
   },
   {
     title: 'Solar Panel Hosting',
-    description: 'Host solar panels and earn from clean energy generation.',
+    description: 'Earn from clean energy without selling your land. Elevated panel frames keep the ground untouched. Lease income + green energy credits.',
     category: 'Income Generation',
     gradient: 'from-slate-800 to-slate-600',
     size: 'half',
     imageUrl: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800',
   },
   {
-    title: 'Boundary Fencing Installation',
-    description: 'Professional fencing to secure your plot boundaries and deter encroachment.',
+    title: 'Boundary Fencing & Signage',
+    description: 'Barbed-wire or chain-link fencing installed within 72 hours. Includes "Private Property — Under PlotKare Surveillance" board that deters encroachers.',
     category: 'Protection',
     gradient: 'from-zinc-800 to-zinc-600',
     size: 'half',
@@ -51,15 +51,15 @@ const services: Service[] = [
   },
   {
     title: 'Legal Holding Advisory',
-    description: 'Expert guidance on property laws, tax planning, and estate management.',
+    description: 'Succession planning, mutation guidance, tax optimisation, and estate structuring from property lawyers who handle Vizag land cases daily.',
     category: 'Protection',
     gradient: 'from-stone-800 to-stone-600',
     size: 'half',
     imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
   },
   {
-    title: 'Plot Resale Assistance',
-    description: 'End-to-end support for selling your plot at the best market value.',
+    title: 'Property Listing & Sale Support',
+    description: 'Ready to sell? We generate 3D layout views of your plot, list on major portals, handle buyer visits, and manage the registration process end-to-end.',
     category: 'Development',
     gradient: 'from-indigo-900 to-indigo-700',
     size: 'full',
@@ -88,10 +88,12 @@ export function LandUtilisationSection() {
           className="mb-12"
         >
           <h2 className="font-serif text-4xl font-bold text-foreground md:text-5xl">
-            We Grow Your Land&apos;s <span className="text-primary">Potential</span>
+            Make Your Vacant Plot <span className="text-primary">Earn</span>
           </h2>
           <p className="mt-4 max-w-2xl font-sans text-lg text-muted-foreground">
-            Beyond monitoring — optional value-add services for your vacant plot.
+            Your land is sitting idle. These add-on services generate income or add protection — 
+            without disturbing the soil, without permanent construction, and fully reversible 
+            when you are ready to build or sell.
           </p>
         </motion.div>
 

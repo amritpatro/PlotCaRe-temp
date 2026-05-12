@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 
 const stats = [
-  { value: '340+', label: 'Plots Managed' },
-  { value: '12', label: 'Field Agents' },
-  { value: '47', label: 'Encroachments Resolved' },
-  { value: '98%', label: 'Report Delivery' },
+  { value: '340+', label: 'Plots Protected in Vizag' },
+  { value: '47', label: 'Encroachments Stopped' },
+  { value: '12', label: 'Verified Field Agents' },
+  { value: '7 days', label: 'First Report Delivered' },
 ]
 
 export function HeroSection() {
@@ -22,7 +22,7 @@ export function HeroSection() {
             transition={{ duration: 0.6 }}
             className="mb-6 font-mono text-sm font-medium uppercase tracking-widest text-primary"
           >
-            Plot Management Services
+            Asset Protection &amp; Management — Visakhapatnam
           </motion.p>
 
           <motion.h1
@@ -31,9 +31,9 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="max-w-4xl font-serif text-6xl font-bold leading-[1.1] tracking-tight text-foreground md:text-7xl lg:text-8xl xl:text-9xl"
           >
-            Your Land.
+            Your Plot.
             <br />
-            <span className="text-primary">Watched Over.</span>
+            <span className="text-primary">Our Watch.</span>
           </motion.h1>
 
           <motion.p
@@ -42,9 +42,10 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-8 max-w-2xl font-sans text-xl leading-relaxed text-muted-foreground md:text-2xl"
           >
-            Monthly inspection, digital monitoring, and legal protection for NRI-owned 
-            plots in Visakhapatnam. Managed by trusted local agents who act as your 
-            eyes on the ground.
+            Your neighbour started a compound wall three feet into your boundary last 
+            month. You found out just now. We make sure that never happens again — with 
+            boots-on-ground inspections, geotagged photo reports, and legal muscle, 
+            every single month.
           </motion.p>
 
           {/* CTAs */}
@@ -58,13 +59,13 @@ export function HeroSection() {
               href="#contact"
               className="inline-flex items-center justify-center rounded-sm bg-primary px-10 py-5 font-sans text-base font-medium text-white transition-all hover:bg-primary/90 md:px-12 md:py-6 md:text-lg"
             >
-              List Your Plot
+              Protect My Plot
             </Link>
             <Link
               href="#services"
               className="inline-flex items-center justify-center rounded-sm border border-foreground bg-transparent px-10 py-5 font-sans text-base font-medium text-foreground transition-all hover:bg-foreground hover:text-white md:px-12 md:py-6 md:text-lg"
             >
-              View Sample Report
+              See a Sample Report
             </Link>
           </motion.div>
 

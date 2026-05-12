@@ -7,26 +7,26 @@ const painPoints = [
   {
     number: '01',
     icon: AlertTriangle,
-    title: 'Encroachment Risk',
-    description: 'Vacant plots attract squatters and boundary violations that go unnoticed for months.',
+    title: 'Boundary Encroachment',
+    description: 'A neighbour builds 3 feet into your plot. By the time your cousin mentions it, there is a compound wall and a legal fight ahead.',
   },
   {
     number: '02',
     icon: FileWarning,
-    title: 'Legal Complexity',
-    description: 'AP RERA filings, tax dues, and compliance requirements pile up without oversight.',
+    title: 'Tax & Compliance Gaps',
+    description: 'Property tax unpaid for two years. Revenue records still show old pattadar name. RERA non-compliance notice arrives — you learn about it months later.',
   },
   {
     number: '03',
     icon: TrendingDown,
-    title: 'Value Uncertainty',
-    description: 'Without monitoring, you never know the current market value or legal status of your plot.',
+    title: 'Blind to Real Value',
+    description: 'A nearby layout sold at Rs. 18,000 per sq.yd last quarter. Your broker quoted Rs. 12,000. Without ground data, you are always the last to know.',
   },
   {
     number: '04',
     icon: Eye,
-    title: 'No Reliable Eyes',
-    description: 'Local relatives get busy, and brokers have conflicts of interest. Trust is hard to find.',
+    title: 'Nobody You Can Trust',
+    description: 'Your uncle stopped visiting. The broker wants you to sell. The watchman disappeared. Who is actually looking at your 200 sq.yd in Bheemunipatnam right now?',
   },
 ]
 
@@ -62,15 +62,15 @@ export function ProblemSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="font-serif text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
-              NRI Landowners
+              You Left Vizag.
               <br />
-              Live Far.
+              Your Land
               <br />
-              <span className="text-primary">Their Plots Don&apos;t.</span>
+              <span className="text-primary">Didn&apos;t.</span>
             </h2>
             <p className="mt-6 max-w-md font-sans text-lg leading-relaxed text-white/60">
-              The risks are real. Traditional solutions are unreliable. Your land needs 
-              professional oversight that you can trust.
+              Every vacant plot in Visakhapatnam is a sitting target. And from Houston, 
+              Dubai, or London — you cannot see what is happening to yours right now.
             </p>
           </motion.div>
 
