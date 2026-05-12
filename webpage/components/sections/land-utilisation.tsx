@@ -18,48 +18,51 @@ interface Service {
 
 const services: Service[] = [
   {
-    title: 'Raised-Bed Farming Lease',
-    description: 'Your empty plot earns Rs. 3,000–6,000/month through organic vegetable farming. We install raised beds that sit above the soil — zero disturbance to your land. Remove them anytime.',
+    title: 'Container Farming Lease',
+    description: 'Generate passive income by leasing your plot for modern container farming operations.',
     category: 'Income Generation',
     gradient: 'from-emerald-900 to-emerald-700',
     size: 'full',
-    imageUrl: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800',
+    imageUrl:
+      'https://images.unsplash.com/photo-1530836369250-ef72a3f66bab?w=800&auto=format&fit=crop&q=80',
   },
   {
     title: 'Mushroom Kit Cultivation',
-    description: 'Portable mushroom kits placed on your plot generate Rs. 4,200/month. No permanent structure. No soil contact. Fully reversible.',
+    description: 'Low-maintenance mushroom cultivation that generates monthly returns.',
     category: 'Income Generation',
     gradient: 'from-amber-900 to-amber-700',
     size: 'half',
-    imageUrl: '/images/mushroom-kit.jpg',
+    imageUrl:
+      'https://images.unsplash.com/photo-1575535468632-345892508d6b?w=800&auto=format&fit=crop&q=80',
   },
   {
     title: 'Solar Panel Hosting',
-    description: 'Earn from clean energy without selling your land. Elevated panel frames keep the ground untouched. Lease income + green energy credits.',
+    description: 'Host solar panels and earn from clean energy generation.',
     category: 'Income Generation',
     gradient: 'from-slate-800 to-slate-600',
     size: 'half',
     imageUrl: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800',
   },
   {
-    title: 'Boundary Fencing & Signage',
-    description: 'Barbed-wire or chain-link fencing installed within 72 hours. Includes "Private Property — Under PlotKare Surveillance" board that deters encroachers.',
+    title: 'Boundary Fencing Installation',
+    description: 'Professional fencing to secure your plot boundaries and deter encroachment.',
     category: 'Protection',
     gradient: 'from-zinc-800 to-zinc-600',
     size: 'half',
-    imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
+    imageUrl:
+      'https://images.unsplash.com/photo-1628624747186-d9c6e7c79f8f?w=800&auto=format&fit=crop&q=80',
   },
   {
     title: 'Legal Holding Advisory',
-    description: 'Succession planning, mutation guidance, tax optimisation, and estate structuring from property lawyers who handle Vizag land cases daily.',
+    description: 'Expert guidance on property laws, tax planning, and estate management.',
     category: 'Protection',
     gradient: 'from-stone-800 to-stone-600',
     size: 'half',
     imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
   },
   {
-    title: 'Property Listing & Sale Support',
-    description: 'Ready to sell? We generate 3D layout views of your plot, list on major portals, handle buyer visits, and manage the registration process end-to-end.',
+    title: 'Plot Resale Assistance',
+    description: 'End-to-end support for selling your plot at the best market value.',
     category: 'Development',
     gradient: 'from-indigo-900 to-indigo-700',
     size: 'full',
@@ -88,12 +91,10 @@ export function LandUtilisationSection() {
           className="mb-12"
         >
           <h2 className="font-serif text-4xl font-bold text-foreground md:text-5xl">
-            Make Your Vacant Plot <span className="text-primary">Earn</span>
+            Visakhapatnam Vacant Land Income &amp; Protection <span className="text-primary">Add-Ons</span>
           </h2>
           <p className="mt-4 max-w-2xl font-sans text-lg text-muted-foreground">
-            Your land is sitting idle. These add-on services generate income or add protection — 
-            without disturbing the soil, without permanent construction, and fully reversible 
-            when you are ready to build or sell.
+            Beyond monitoring — optional value-add services for your vacant plot.
           </p>
         </motion.div>
 

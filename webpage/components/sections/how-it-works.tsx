@@ -6,28 +6,29 @@ import { motion } from 'framer-motion'
 const steps = [
   {
     number: '01',
-    title: 'Register Your Plot',
-    description: 'Share your survey number, location, and one document. Takes 10 minutes on phone or WhatsApp. No paperwork needed from your side.',
+    title: 'List Your Plot',
+    description: 'Share your plot number, location, and documents. Setup takes just 10 minutes online or via WhatsApp.',
   },
   {
     number: '02',
-    title: 'Pick Your Plan',
-    description: 'Basic monitoring from Rs. 999/month. Full protection with legal cover from Rs. 1,999. Choose what fits your situation.',
+    title: 'Choose Your Plan',
+    description: 'Select Monthly, Quarterly, or Annual monitoring. Plans start from Rs. 999 per month with flexible options.',
   },
   {
     number: '03',
-    title: 'Agent Assigned in 48 Hours',
-    description: 'A background-verified field agent from your plot area is assigned. They know the local terrain, the neighbouring owners, and the tehsildar office.',
+    title: 'Agent Deployed',
+    description:
+      'A field coordinator is assigned to your plot file with a written scope — timelines depend on corridor and intake volume.',
   },
   {
     number: '04',
-    title: 'First Inspection in 7 Days',
-    description: 'Your agent visits, photographs all four boundaries, checks for any activity, and sends you a full report with actionable status.',
+    title: 'Services Activated',
+    description: 'Boundary inspection, legal check, and document vault go live immediately. You get full visibility.',
   },
   {
     number: '05',
-    title: 'Monthly Reports, Forever',
-    description: 'Every 30 days: fresh photos, boundary status, value update, and legal health check. On WhatsApp. On email. On your dashboard.',
+    title: 'Reports Forever',
+    description: 'Every month your report arrives with photos, status, and value estimate on WhatsApp and email.',
   },
 ]
 
@@ -52,7 +53,7 @@ export function HowItWorksSection() {
           className="mb-12 text-center"
         >
           <h2 className="font-serif text-4xl font-bold text-white md:text-5xl">
-            From Sign-Up to <span className="text-primary">First Report in 7 Days</span>
+            How Visakhapatnam Plot Monitoring Works in <span className="text-primary">Five Steps</span>
           </h2>
         </motion.div>
 

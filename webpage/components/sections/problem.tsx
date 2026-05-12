@@ -7,26 +7,26 @@ const painPoints = [
   {
     number: '01',
     icon: AlertTriangle,
-    title: 'Boundary Encroachment',
-    description: 'A neighbour builds 3 feet into your plot. By the time your cousin mentions it, there is a compound wall and a legal fight ahead.',
+    title: 'Encroachment Risk',
+    description: 'Vacant plots attract squatters and boundary violations that go unnoticed for months.',
   },
   {
     number: '02',
     icon: FileWarning,
-    title: 'Tax & Compliance Gaps',
-    description: 'Property tax unpaid for two years. Revenue records still show old pattadar name. RERA non-compliance notice arrives — you learn about it months later.',
+    title: 'Legal Complexity',
+    description: 'Statutory filings, tax dues, and compliance windows pile up without a single calendar owner.',
   },
   {
     number: '03',
     icon: TrendingDown,
-    title: 'Blind to Real Value',
-    description: 'A nearby layout sold at Rs. 18,000 per sq.yd last quarter. Your broker quoted Rs. 12,000. Without ground data, you are always the last to know.',
+    title: 'Value Uncertainty',
+    description: 'Without monitoring, you never know the current market value or legal status of your plot.',
   },
   {
     number: '04',
     icon: Eye,
-    title: 'Nobody You Can Trust',
-    description: 'Your uncle stopped visiting. The broker wants you to sell. The watchman disappeared. Who is actually looking at your 200 sq.yd in Bheemunipatnam right now?',
+    title: 'No Reliable Eyes',
+    description: 'Local relatives get busy, and brokers have conflicts of interest. Trust is hard to find.',
   },
 ]
 
@@ -51,7 +51,7 @@ const itemVariants = {
 
 export function ProblemSection() {
   return (
-    <section id="about" className="bg-charcoal py-24 lg:py-32">
+    <section id="about" className="bg-charcoal py-16 lg:py-20">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-12">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Left Content */}
@@ -62,15 +62,16 @@ export function ProblemSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="font-serif text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
-              You Left Vizag.
+              Visakhapatnam Land at Risk When
               <br />
-              Your Land
+              No One Visits on a
               <br />
-              <span className="text-primary">Didn&apos;t.</span>
+              <span className="text-primary">Predictable Schedule.</span>
             </h2>
             <p className="mt-6 max-w-md font-sans text-lg leading-relaxed text-white/60">
-              Every vacant plot in Visakhapatnam is a sitting target. And from Houston, 
-              Dubai, or London — you cannot see what is happening to yours right now.
+              NRIs abroad, metro-based owners with a second asset in AP, and local investors with multiple parcels all
+              share the same failure mode: decisions made from stale information. PlotKare is built around dated
+              field evidence you can forward to counsel or family.
             </p>
           </motion.div>
 
