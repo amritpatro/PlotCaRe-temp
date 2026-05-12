@@ -19,7 +19,7 @@ const nextConfig = {
     ],
   },
   turbopack: {
-    root: '/home/user/project/webpage',
+    root: process.cwd(),
   },
   allowedDevOrigins: ['*.e2b.app'],
 }
